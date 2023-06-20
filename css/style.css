@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.header {
+    min-height: 70px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 10%;
+    height: inherit;
+    /* background-color: blue; */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar {
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    font-weight: 600;
+    transition: .7s;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.login li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.login li:hover {
+    font-weight: 600;
+}
+
+.sign-up {
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+.sign-up:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.section-1 {
+    height: 900px;
+    /* background-color: aqua; */
+}
+
+.title {
+    height: 100px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-info {
+    width: 41%;
+    height: 70px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-info img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.desc-title {
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btns button:first-child {
+    width: 60px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #f3f3f4;
+}
+
+.btns button:last-child {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ea4c89;
+    color: white;
+    margin-left: 10px;
+}
+
+.btns button:first-child:hover {
+    background-color: #d3d3d6;
+}
+
+
+.section-1-img {
+    height: 700px;
+    /* object-fit: contain; */
+}
+
+.section-2 {
+    height: 400px;
+    /* background-color: red; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.idea {
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idea p:first-child {
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+}
+
+
+.idea p:last-child {
+    font-size: 20px;
+    height: 20px;
+    font-weight: 500;
+}
+
+.idea p a {
+    text-decoration: none;
+    color: #ea4c89;
+}
+
+.greet {
+    width: 80%;
+    /* background-color: aqua; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greet p {
+    font-size: 20px;
+}
+
+.section-3 {
+    height: 600px;
+}
+
+.section-4, .section-5, .section-6, .section-8, .section-9 {
+    height: 600px;
+    background-image: blue;
+}
+
+.section-7 {
+    height: 60px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.section-7 p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.section-10 {
+    height: 600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.smart-home-app-block {
+    width: 60%;
+    height: 140px;
+    background-color: #f3f3f4;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smart-home-app-block .title {
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vool-logo {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vool-logo span {
+    width: 38%;
+    border: 1px solid black;
+}
+
+.user-info {
+    height: 200px;
+    /* background-color: #ea4c89; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info p:first-child {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.user-info button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ea4c89;
+    color: white;
+}
+
+.user-info button:hover {
+    background-color: #ec2a74;
+}
